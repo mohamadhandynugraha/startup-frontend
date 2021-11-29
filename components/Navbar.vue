@@ -27,7 +27,7 @@
         <nuxt-link
           class="text-white hover:text-teal-500 text-lg px-4 py-3"
           to="/story.html"
-          >Success Stories\
+          >Success Stories
         </nuxt-link>
       </li>
     </ul>
