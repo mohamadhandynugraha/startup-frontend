@@ -11,12 +11,12 @@
           <h2 class="text-4xl text-gray-900 mb-2 font-medium">Dashboard</h2>
           <ul class="flex mt-2">
             <li class="mr-6">
-              <nuxt-link class="text-gray-800 font-bold" href="#"> Your Projects </nuxt-link>
+              <nuxt-link class="text-gray-800 font-bold" to="/handy"> Your Projects </nuxt-link>
             </li>
             <li class="mr-6">
               <nuxt-link
                 class="text-gray-500 hover:text-gray-800"
-                to="/dashboard/transactions.html"
+                to="/dashboard"
               >
                 Your Transactions
               </nuxt-link>
@@ -25,7 +25,7 @@
         </div>
         <div class="w-1/4 text-right">
           <nuxt-link
-            to="/dashboard/create.html"
+            to="/dashboard"
             class="bg-orange-button hover:bg-green-button text-white font-bold py-4 px-4 rounded inline-flex items-center"
           >
             + Create Campaign
@@ -59,12 +59,12 @@
               </p>
             </div>
             <div class="flex items-center">
-              <a
-                href="/dashboard/detail.html"
+              <nuxt-link
+                to="/dashboard"
                 class="bg-green-button text-white py-2 px-4 rounded"
               >
                 Detail
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
